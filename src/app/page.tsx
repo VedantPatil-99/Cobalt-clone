@@ -10,12 +10,14 @@ export default function Home() {
           <GridPattern />
           <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center pt-14 text-center">
             <Heading>Unleash the power of intuitive finance</Heading>
-            <p className="mt-6 max-w-3xl text-lg/[1.5] font-semibold text-zinc-400 md:text-xl/[1.5]">
+            <p className="mt-6 max-w-2xl text-lg/[1.5] font-medium text-zinc-400 md:text-xl/[1.5]">
               Say goodbye to the outdated financial tools. Every small business
               owner, regardless of the background, can now manage their business
               like a pro. Simple. Intuitive. And never boring.
             </p>
-            <JoinBtn>Join the waitlist</JoinBtn>
+            <div className="my-12">
+              <JoinBtn>Join the waitlist</JoinBtn>
+            </div>
           </div>
         </section>
       </main>
