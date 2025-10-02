@@ -1,5 +1,6 @@
 import GridPattern from "../components/GridPattern";
 import Heading from "../components/Heading";
+import JoinBtn from "../components/JoinBtn";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
               owner, regardless of the background, can now manage their business
               like a pro. Simple. Intuitive. And never boring.
             </p>
+            <JoinBtn>Join the waitlist</JoinBtn>
           </div>
         </section>
       </main>
