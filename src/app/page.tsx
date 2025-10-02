@@ -1,6 +1,8 @@
 import GridPattern from "../components/GridPattern";
 import Heading from "../components/Heading";
 import JoinBtn from "../components/JoinBtn";
+import { ArrowDown } from "lucide-react";
+
 export default function Home() {
   return (
     <>
@@ -15,8 +17,19 @@ export default function Home() {
               owner, regardless of the background, can now manage their business
               like a pro. Simple. Intuitive. And never boring.
             </p>
-            <div className="my-12">
+            <div className="mt-10 flex flex-col items-center justify-between gap-8">
               <JoinBtn>Join the waitlist</JoinBtn>
+              <a
+                href="#info"
+                className="group flex flex-col items-center text-zinc-400"
+              >
+                <span className="text-sm font-medium tracking-wide text-zinc-400 transition-colors duration-300 ease-in-out group-hover:text-zinc-50">
+                  Learn more
+                </span>
+                <div className="mt-1 transition-transform duration-300 ease-in-out group-hover:translate-y-2">
+                  <ArrowDown className="size-4" />
+                </div>
+              </a>
             </div>
           </div>
         </section>
