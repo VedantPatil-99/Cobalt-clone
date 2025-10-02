@@ -1,0 +1,31 @@
+const GridPattern = () => {
+  return (
+    <>
+      <svg
+        className="absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(100%_100%_at_top_center,white,transparent)] stroke-white/6"
+        aria-hidden="true"
+      >
+        <defs>
+          <pattern
+            id="hero"
+            width="80"
+            height="80"
+            x="50%"
+            y="-1"
+            patternUnits="userSpaceOnUse"
+          >
+            <path d="M.5 200V.5H200" fill="none"></path>
+          </pattern>
+        </defs>
+        <rect
+          width="100%"
+          height="100%"
+          strokeWidth="0"
+          fill="url(#hero)"
+        ></rect>
+      </svg>
+    </>
+  );
+};
+
+export default GridPattern;
