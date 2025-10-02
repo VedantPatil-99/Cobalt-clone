@@ -1,4 +1,5 @@
 import GridPattern from "../components/GridPattern";
+import Heading from "../components/Heading";
 export default function Home() {
   return (
     <>
@@ -7,10 +8,8 @@ export default function Home() {
           <GradientBg />
           <GridPattern />
           <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center pt-14 text-center">
-            <h1 className="bg-gradient-to-br from-white to-zinc-500 bg-clip-text text-5xl/[1.07] font-bold tracking-tight text-transparent md:text-7xl/[1.07]">
-              Unleash the power of intuitive finance
-            </h1>
-            <p className="mt-6 max-w-2xl text-lg font-medium text-zinc-400 md:text-xl">
+            <Heading>Unleash the power of intuitive finance</Heading>
+            <p className="mt-6 max-w-3xl text-lg/[1.5] font-semibold text-zinc-400 md:text-xl/[1.5]">
               Say goodbye to the outdated financial tools. Every small business
               owner, regardless of the background, can now manage their business
               like a pro. Simple. Intuitive. And never boring.
