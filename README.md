@@ -1,11 +1,10 @@
 # Work done till now
-Screenshot: Landing Page
 
+Screenshot: Landing Page
 
 <kbd>
 <img width="1918" height="891" style="border-radius:200px;" alt="Screenshot 2025-10-03 003833" src="https://github.com/user-attachments/assets/18f951b0-83d2-45a4-9aa8-fa888ee9476b" />
 </kbd>
-
 
 ## Setup
 
