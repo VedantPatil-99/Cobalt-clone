@@ -2,11 +2,15 @@ import GridPattern from "@/components/GridPattern";
 import Heading from "@/components/Heading";
 import JoinBtn from "@/components/JoinBtn";
 import { ArrowDown } from "lucide-react";
+import Navbar from "@/components/Navbar";
 
 const Landing = () => {
   return (
     <>
       <section className="relative isolate h-screen pt-14">
+        <header className="absolute inset-x-0 top-0 z-10">
+          <Navbar />
+        </header>
         <GradientBg />
         <GridPattern />
         <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center pt-14 text-center">
