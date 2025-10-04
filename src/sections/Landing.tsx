@@ -1,13 +1,14 @@
+import GradientBg from "@/components/GradientBg";
 import GridPattern from "@/components/GridPattern";
 import Heading from "@/components/Heading";
 import JoinBtn from "@/components/JoinBtn";
-import { ArrowDown } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import { ArrowDown } from "lucide-react";
 
 const Landing = () => {
   return (
     <>
-      <section className="relative isolate h-screen pt-14">
+      <section className="relative isolate max-h-screen px-10 pt-14">
         <header className="absolute inset-x-0 top-0 z-10">
           <Navbar />
         </header>
@@ -36,14 +37,6 @@ const Landing = () => {
           </div>
         </div>
       </section>
-    </>
-  );
-};
-
-export const GradientBg = () => {
-  return (
-    <>
-      <div className="absolute inset-0 -z-10 h-full bg-[image:radial-gradient(80%_90%_at_50%_-20%,hsl(206,81.9%,65.3%,0.4),rgba(255,255,255,0))]"></div>
     </>
   );
 };
