@@ -2,16 +2,12 @@ import GradientBg from "@/components/GradientBg";
 import GridPattern from "@/components/GridPattern";
 import Heading from "@/components/Heading";
 import JoinBtn from "@/components/JoinBtn";
-import Navbar from "@/components/Navbar";
 import { ArrowDown } from "lucide-react";
 
 const Landing = () => {
   return (
     <>
       <section className="relative px-10 pt-14">
-        <header className="absolute inset-x-0 top-0 z-10">
-          <Navbar />
-        </header>
         <GradientBg />
         <GridPattern />
         <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center pt-14 text-center">
