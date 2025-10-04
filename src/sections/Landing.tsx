@@ -8,14 +8,16 @@ import { ArrowDown } from "lucide-react";
 const Landing = () => {
   return (
     <>
-      <section className="relative isolate max-h-screen px-10 pt-14">
+      <section className="relative isolate min-h-screen px-10 pt-14">
         <header className="absolute inset-x-0 top-0 z-10">
           <Navbar />
         </header>
         <GradientBg />
         <GridPattern />
         <div className="mx-auto mt-10 flex max-w-3xl flex-col items-center justify-center pt-14 text-center">
-          <Heading>Unleash the power of intuitive finance</Heading>
+          <Heading className="text-5xl/[1.07] md:text-7xl/[1.07]">
+            Unleash the power of intuitive finance
+          </Heading>
           <p className="mt-6 max-w-2xl text-lg/[1.5] font-medium text-zinc-400 md:text-xl/[1.5]">
             Say goodbye to the outdated financial tools. Every small business
             owner, regardless of the background, can now manage their business
