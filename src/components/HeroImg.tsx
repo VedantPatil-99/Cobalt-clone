@@ -29,8 +29,8 @@ const sliderVariants: Variants = {
 const HeroImg = () => {
   return (
     <>
-      <section className="mx-auto mt-8 max-w-7xl px-10 py-6">
-        <div className="relative mx-auto flex max-w-6xl">
+      <section className="mx-auto my-8 max-w-7xl px-10 py-6">
+        <div className="relative mx-auto flex max-w-7xl">
           <Slider className="-top-px right-20" position="top" />
           <div className="size-full rounded-3xl bg-zinc-950 ring-1 ring-white/10">
             <Image
