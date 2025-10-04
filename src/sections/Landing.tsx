@@ -8,7 +8,7 @@ import { ArrowDown } from "lucide-react";
 const Landing = () => {
   return (
     <>
-      <section className="relative isolate min-h-screen px-10 pt-14">
+      <section className="relative px-10 pt-14">
         <header className="absolute inset-x-0 top-0 z-10">
           <Navbar />
         </header>
