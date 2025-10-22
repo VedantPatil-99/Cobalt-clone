@@ -1,11 +1,10 @@
-import React from "react";
 import Heading from "@/components/Heading";
 
 const Info = () => {
   return (
-    <section className="mx-auto my-20 max-w-7xl px-10 py-16 md:py-24 lg:px-8">
+    <section className="mx-auto mt-20 max-w-7xl px-10 py-16 md:py-24 lg:px-8">
       <div className="mx-auto grid items-start justify-start gap-5 md:grid-cols-2">
-        <Heading className="max-w-lg py-1 md:text-5xl">
+        <Heading className="max-w-lg py-1 text-4xl/[1.07] md:text-5xl/[1.07]">
           Who said finance has to be boring?
         </Heading>
         <p className="max-w-xl text-xl text-zinc-400/80">

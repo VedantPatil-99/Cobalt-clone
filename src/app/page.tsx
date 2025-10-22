@@ -1,6 +1,7 @@
 import HeroImg from "@components/HeroImg";
-import Landing from "@sections/Landing";
+import Explore from "@sections/Explore";
 import Info from "@sections/Info";
+import Landing from "@sections/Landing";
 export default function Home() {
   return (
     <>
@@ -8,6 +9,7 @@ export default function Home() {
         <Landing />
         <HeroImg />
         <Info />
+        <Explore />
       </main>
     </>
   );
