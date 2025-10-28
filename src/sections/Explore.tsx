@@ -1,6 +1,7 @@
 import Heading from "@/components/Heading";
 import Card from "@/components/Card";
 import CardPack from "../components/CardPack";
+import IconShowcase from "@/components/IconShowCase";
 
 const Explore = () => {
   return (
@@ -21,21 +22,29 @@ const Explore = () => {
             imgUrl="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
             title="Insights at your fingertips"
             description="All your data and finances in one place to provide quick answers and make decisions instantly."
-          ></Card>
+          />
           <Card
             imgUrl="https://images.unsplash.com/photo-1612696874005-d015469bc660?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=696"
             title="Manage in real time"
             description="Have full control of your business finances on
             the go using our iOS/Android mobile apps.
             Because, you know, it's 2023."
-          ></Card>
+          />
           <Card
             imgUrl="https://images.unsplash.com/photo-1643845892686-30c241c3938c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=688"
             title="Important business alerts"
             description="Choose the alerts you need and receive them
             via email, mobile or Slack. Review and take
             action in one click."
-          ></Card>
+          />
+        </CardPack>
+        <CardPack>
+          <Card
+            imgNode={<IconShowcase />}
+            title="Connect all your apps"
+            description="Bring your data with our built-in integration for accounting, revenue tools and banking."
+            className="col-span-2"
+          />
         </CardPack>
       </section>
     </section>
