@@ -45,6 +45,11 @@ const Explore = () => {
             description="Bring your data with our built-in integration for accounting, revenue tools and banking."
             className="col-span-2"
           />
+          <Card
+            imgUrl="https://images.unsplash.com/photo-1654426542353-ba54b8f1752b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
+            title="You're in control"
+            description="Lightning fast. Shortcuts for everything. Command+K on Mac, Ctrl+K for Windows. Dark mode."
+          />
         </CardPack>
       </section>
     </section>
