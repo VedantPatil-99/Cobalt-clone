@@ -3,7 +3,7 @@
 Screenshot: Work done till now
 
 <kbd>
-<img width="1835" height="3225" alt="localhost_3000_" src="https://github.com/user-attachments/assets/36bfcb4b-4ea0-4ae5-b3e8-7512047757ef" />
+<img width="1900" height="auto" alt="localhost_3000_ (7)" src="https://github.com/user-attachments/assets/eb51f2c8-38fc-4b28-8d10-d0fc13f69841" />
 </kbd>
 
 ## Setup
