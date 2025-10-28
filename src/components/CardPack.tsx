@@ -9,7 +9,7 @@ const CardPack = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("my-6 grid grid-cols-3 gap-10", className)}>
+    <div className={cn("my-10 grid grid-cols-3 gap-10", className)}>
       {children}
     </div>
   );

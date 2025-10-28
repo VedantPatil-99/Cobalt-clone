@@ -4,7 +4,7 @@ import CardPack from "../components/CardPack";
 
 const Product = () => {
   return (
-    <section className="mx-auto max-w-7xl p-6 py-16 md:py-24 lg:px-8">
+    <section className="mx-auto max-w-7xl p-6 py-16 md:py-14 lg:px-8">
       <div className="grid max-w-xl items-start justify-between gap-5">
         <Heading className="text-4xl/[1.07] md:text-5xl/[1.07]">
           Meet Genius
