@@ -2,7 +2,7 @@ const GridPattern = () => {
   return (
     <>
       <svg
-        className="pointer-events-none absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(100%_100%_at_top_center,white,transparent)] stroke-white/7"
+        className="pointer-events-none absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(100%_100%_at_top_center,white,transparent)] stroke-white/10"
         aria-hidden="true"
       >
         <defs>
