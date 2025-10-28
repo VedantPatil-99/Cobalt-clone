@@ -1,9 +1,9 @@
-# Work done till now
+# Project Work & Setup 
 
-Screenshot: Landing Page
+Screenshot: Work done till now
 
 <kbd>
-<img width="1918" height="891" style="border-radius:200px;" alt="Screenshot 2025-10-03 003833" src="https://github.com/user-attachments/assets/18f951b0-83d2-45a4-9aa8-fa888ee9476b" />
+<img width="1835" height="3225" alt="localhost_3000_" src="https://github.com/user-attachments/assets/36bfcb4b-4ea0-4ae5-b3e8-7512047757ef" />
 </kbd>
 
 ## Setup
