@@ -18,7 +18,7 @@ const Card = ({
 }) => {
   return (
     <div className={cn(className)}>
-      <div className="flex max-h-[32rem] cursor-pointer flex-col items-start justify-between rounded-2xl border-2 border-neutral-800/50 bg-neutral-900/50 p-8">
+      <div className="flex h-[32rem] max-h-[32rem] cursor-pointer flex-col items-start justify-between rounded-2xl border-2 border-neutral-800/50 bg-neutral-900/50 p-8">
         <div className="mask-t-from-80% mask-x-from-99% mask-b-from-35%">
           {imgUrl && (
             <Image

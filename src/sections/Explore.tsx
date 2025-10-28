@@ -16,7 +16,7 @@ const Explore = () => {
           makes every task feel like a breeze.
         </p>
       </div>
-      <section className="md:my-10">
+      <section className="md:my-14">
         <CardPack>
           <Card
             imgUrl="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
