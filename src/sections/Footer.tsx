@@ -12,11 +12,11 @@ const Footer = () => {
       <FooterPattern />
       <div className="absolute blur-3xl"></div>
       <section className="border-b-1 border-neutral-200/15 py-16 text-center">
-        <div className="mx-auto mb-10 flex max-w-md flex-col gap-4">
-          <Heading className="p-0.5 text-3xl/[1.1]">
+        <div className="mx-auto mb-10 flex max-w-xl flex-col gap-4">
+          <Heading className="p-0.5 text-4xl/[1.1]">
             See where financial automation can take your business.
           </Heading>
-          <p className="max-w-xl text-sm text-zinc-400/80">
+          <p className="text-md max-w-xl text-zinc-400/80">
             The first financial tool you&apos;ll love. And the last one
             you&apos;ll ever need.
           </p>
