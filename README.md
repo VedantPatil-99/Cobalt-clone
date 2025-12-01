@@ -1,84 +1,129 @@
 # 🌐 Cobalt Clone
-📝 Description
-This project, Cobalt Clone, is an effort to replicate the user interface (UI) and user experience (UX) of the Cobalt platform. It serves as a comprehensive frontend development exercise, focusing on modern design implementation, responsive layouts, and state management using the Next.js framework.
-The goal is to deliver a highly accurate and functionally representative clone of the original application's look and feel, showcasing proficiency in modern web development standards.
 
-## Project Overview
+A faithful UI/UX recreation of the Cobalt platform built as a frontend exercise with Next.js and TypeScript. This project demonstrates component-based architecture, responsive design, and modern frontend best practices.
 
-Screenshot: Work done till now
+![Screenshot](https://github.com/user-attachments/assets/eb51f2c8-38fc-4b28-8d10-d0fc13f69841)
 
-<kbd>
-<img width="1900" height="auto" alt="localhost_3000_ (7)" src="https://github.com/user-attachments/assets/eb51f2c8-38fc-4b28-8d10-d0fc13f69841" />
-</kbd>
+---
 
-📖 Table of Contents
- * Project Title
- * Description
- * Features
- * Technologies Used
- * Installation
- * Usage
- * Contributing
- * License
- * Credits/Acknowledgments
- * Contact
-✨ Features
- * Responsive Design: Optimized layout for viewing across various devices (desktop, tablet, and mobile).
- * Modern UI Implementation: Faithful recreation of the Cobalt platform's design aesthetics.
- * Component-Based Architecture: Built using Next.js components for maintainability and scalability.
- * Optimized Performance: Leverages Next.js features like code splitting and optimized fonts (next/font with Geist).
- * Type Safety: Developed primarily in TypeScript for robust and error-free code.
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Demo / Screenshot](#demo--screenshot)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Development](#development)
+  - [Build & Production](#build--production)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [Credits & License](#credits--license)
+- [Contact](#contact)
 
-🛠️ Technologies Used
-This project is built using a modern web development stack:
-| Category | Technology | Description |
-|---|---|---|
-| Framework | Next.js | React framework for production. |
-| Language | TypeScript | Primary language for type-safe code. |
-| Styling | CSS/Tailwind (Inferred) | For styling components and layout. |
-| Linter/Formatter | ESLint | For identifying and reporting on patterns found in ECMAScript/JavaScript code. |
-| Formatter | Prettier | For code consistency and automatic formatting. |
-| Deployment | Vercel | Recommended deployment platform (creator of Next.js). |
-⚙️ Installation
-To set up and run this project locally, follow these steps.
-Prerequisites
- * Node.js (LTS version recommended)
- * npm, yarn, pnpm, or bun
-Steps
- * Clone the repository:
-   git clone https://github.com/VedantPatil-99/cobalt-clone.git
-cd cobalt-clone
+---
 
- * Install dependencies:
-   Use your preferred package manager:
-   npm install
-# or
-yarn install
-# or
+## About
+Cobalt Clone is a frontend implementation intended for educational and portfolio purposes. It focuses on accurately reproducing the look-and-feel and interactions of the original Cobalt platform while using modern tools and TypeScript for improved developer experience and maintainability.
+
+---
+
+## Features
+- Responsive layout (desktop, tablet, mobile)
+- Component-driven design using Next.js
+- TypeScript for type safety
+- Performance optimizations leveraging Next.js features
+- Configured linting & formatting (ESLint, Prettier)
+
+---
+
+## Tech Stack
+- Framework: Next.js
+- Language: TypeScript
+- Styling: CSS / Tailwind (where used)
+- Linting: ESLint
+- Formatting: Prettier
+- Recommended deployment: Vercel
+
+---
+
+## Demo / Screenshot
+See the image at the top for the current UI progress. Run the project locally to explore interactive elements and layout.
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Node.js (LTS recommended)
+- A package manager: npm, yarn, pnpm, or bun
+
+### Install
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/VedantPatil-99/Cobalt-clone.git
+cd Cobalt-clone
+# npm
+npm install
+# or yarn
+yarn
+# or pnpm
 pnpm install
-# or
+# or bun
 bun install
+```
 
-🚀 Usage
-Follow these steps to start the development server and view the project in your browser.
- * Run the development server:
-   npm run dev
-# or
+### Development
+Start the development server:
+
+```bash
+# npm
+npm run dev
+# or yarn
 yarn dev
-# or
+# or pnpm
 pnpm dev
-# or
+# or bun
 bun dev
+```
 
- * Open in Browser:
-   The application will be accessible at:
-   http://localhost:3000
-The page will auto-update as you edit the files in the src/ directory.
+Open http://localhost:3000 in your browser. The app will hot-reload as you edit files.
 
-🙏 Credits/Acknowledgments
- * This project is a clone and is purely for educational and portfolio purposes.
- * The design and original concept are credited to the Cobalt platform.
- * Built with Next.js, React, and the open-source community.
-📧 Contact
-Project Link: https://github.com/VedantPatil-99/Cobalt-clone
-Created by Vedant Patil - Feel free to reach out via GitHub.
+### Build & Production
+Build and start the production server:
+
+```bash
+# build
+npm run build
+# start (or use a hosting platform like Vercel)
+npm start
+```
+
+(Adjust commands for yarn/pnpm/bun as needed.)
+
+---
+
+## Project Structure (high level)
+- public/ — static assets
+- src/ — application source (pages, components, styles)
+- next.config.ts — Next.js configuration
+- tsconfig.json — TypeScript configuration
+- package.json — scripts & dependencies
+
+---
+
+## Contributing
+Contributions, issues, and feature requests are welcome. If you plan to contribute:
+1. Fork the repo
+2. Create a branch: git checkout -b feature/name
+3. Commit changes and push
+4. Open a PR with a clear description of your changes
+
+Please ensure code style matches the repo configuration (ESLint + Prettier).
+
+---
+
+## Contact
+Project: https://github.com/VedantPatil-99/Cobalt-clone  
+Created by Vedant Patil — reach out via GitHub.
