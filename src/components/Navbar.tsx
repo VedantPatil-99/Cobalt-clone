@@ -6,7 +6,7 @@ import JoinBtn from "@/components/JoinBtn";
 const Navbar = () => {
   return (
     <>
-      <div className="relative flex justify-center">
+      <div id="navbar" className="relative flex justify-center">
         <div className="mx-4 w-full max-w-7xl">
           <nav className="flex min-h-20 items-center justify-between px-4 py-3">
             <div className="flex lg:flex-1">

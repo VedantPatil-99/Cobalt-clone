@@ -1,39 +1,50 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 import Image from "next/image";
-import MainImg from "../../public/peakpx.jpg";
 
 const Card = ({
   imgUrl,
   imgNode,
+  imgClassName,
   title,
   description,
   className,
 }: {
   imgUrl?: string;
   imgNode?: React.ReactNode;
+  imgClassName?: string;
   title?: string;
   description?: string;
   className?: string;
 }) => {
   return (
-    <div className={cn(className)}>
-      <div className="flex h-[32rem] max-h-[32rem] cursor-pointer flex-col items-start justify-between rounded-2xl border-2 border-neutral-800/50 bg-neutral-900/50 p-8">
-        <div className="mask-t-from-80% mask-x-from-99% mask-b-from-35%">
-          {imgUrl && (
-            <Image
-              src={imgUrl ?? MainImg}
-              alt="Card Image"
-              width={480}
-              height={320}
-              className="h-80 w-[30rem] rounded-xl object-cover object-center opacity-95"
-            />
-          )}
-          {imgNode && (
-            <div className="h-80 rounded-xl opacity-95">{imgNode}</div>
-          )}
+    <div id="card" className={cn(className)}>
+      <div className="group relative flex h-full w-full flex-col overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/60 transition-colors duration-300 hover:bg-neutral-900">
+        <div className="relative w-full overflow-hidden mask-b-from-40%">
+          <div
+            className={cn(
+              "aspect-[4/3] w-full overflow-hidden bg-neutral-950",
+              imgClassName,
+            )}
+          >
+            {imgUrl ? (
+              <Image
+                src={imgUrl}
+                alt={title || "Card Image"}
+                width={400}
+                height={300}
+                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            ) : imgNode ? (
+              <div className="flex h-full w-full items-center justify-center bg-neutral-800 text-neutral-500">
+                {imgNode}
+              </div>
+            ) : (
+              <div className="h-full w-full bg-neutral-800/50" />
+            )}
+          </div>
         </div>
-        <div className="mt-4 flex max-w-sm flex-col">
+        <div className="flex max-w-sm flex-grow flex-col justify-between px-6 py-4 md:p-8">
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </div>
@@ -54,7 +65,7 @@ export const CardTitle = ({
   return (
     <h1
       className={cn(
-        "text-md mb-3 font-semibold tracking-wide text-neutral-200",
+        "mb-2 text-lg font-semibold tracking-wide text-neutral-100/90",
         className,
       )}
     >
@@ -73,7 +84,7 @@ export const CardDescription = ({
   return (
     <p
       className={cn(
-        "text-sm leading-5.5 font-normal tracking-wide text-neutral-500",
+        "text-sm leading-relaxed tracking-wide text-neutral-500",
         className,
       )}
     >

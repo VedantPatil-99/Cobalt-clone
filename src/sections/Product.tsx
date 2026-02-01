@@ -4,12 +4,15 @@ import CardPack from "../components/CardPack";
 
 const Product = () => {
   return (
-    <section className="mx-auto max-w-7xl p-6 py-16 md:py-14 lg:px-8">
+    <section
+      id="product-section"
+      className="mx-auto max-w-7xl p-10 md:py-14 lg:px-8"
+    >
       <div className="grid max-w-xl items-start justify-between gap-5">
         <Heading className="text-4xl/[1.07] md:text-5xl/[1.07]">
           Meet Genius
         </Heading>
-        <p className="max-w-xl text-xl text-zinc-400/80">
+        <p className="text-md max-w-xl text-zinc-400/80 md:text-xl">
           Our Al-driven assistant is designed to decode complex financial
           figures and
           <span className="mx-1.5 text-zinc-200">illuminate key trends</span>
@@ -17,7 +20,7 @@ const Product = () => {
         </p>
       </div>
       <section className="md:my-14">
-        <CardPack className="grid-cols-2">
+        <CardPack>
           <Card
             imgUrl="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
             title="Smart forecasting"

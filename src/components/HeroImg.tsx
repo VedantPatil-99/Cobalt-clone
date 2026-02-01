@@ -29,17 +29,17 @@ const sliderVariants: Variants = {
 const HeroImg = () => {
   return (
     <>
-      <section className="mx-auto my-8 max-w-7xl px-10 py-6">
+      <section id="hero-img" className="mx-auto my-8 max-w-7xl px-10 py-6">
         <div className="relative mx-auto flex max-w-7xl">
-          <Slider className="-top-px right-20" position="top" />
-          <div className="size-full rounded-3xl bg-zinc-950 ring-1 ring-white/10">
+          <Slider className="-top-px right-25 md:right-20" position="top" />
+          <div className="size-full rounded-xl bg-zinc-950 ring-1 ring-white/10 md:rounded-3xl">
             <Image
               src={MainImg}
               alt="Landing image app screenshot"
-              className="size-full rounded-3xl object-cover"
+              className="size-full rounded-xl object-cover md:rounded-3xl"
             />
           </div>
-          <Slider className="-bottom-3 left-20" position="bottom" />
+          <Slider className="-bottom-2 left-25 md:left-20" position="bottom" />
         </div>
       </section>
     </>
@@ -56,7 +56,7 @@ export const Slider = ({
   return (
     <div
       className={cn(
-        "absolute h-2 w-80 overflow-clip [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)]",
+        "absolute h-2 w-40 overflow-clip [mask-image:linear-gradient(to_right,rgba(217,217,217,0)_0%,#d9d9d9_25%,#d9d9d9_75%,rgba(217,217,217,0)_100%)] md:h-2 md:w-80",
         className,
       )}
     >

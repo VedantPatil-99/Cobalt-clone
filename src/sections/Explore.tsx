@@ -5,12 +5,15 @@ import IconShowcase from "@/components/IconShowCase";
 
 const Explore = () => {
   return (
-    <section className="mx-auto max-w-7xl p-6 py-16 md:py-24 lg:px-8">
+    <section
+      id="explore-section"
+      className="mx-auto max-w-7xl p-10 md:py-14 lg:px-8"
+    >
       <div className="grid max-w-xl items-start justify-between gap-5">
         <Heading className="text-4xl/[1.07] md:text-5xl/[1.07]">
           Everything you need. Nothing you don’t
         </Heading>
-        <p className="max-w-xl text-xl text-zinc-400/80">
+        <p className="text-md max-w-xl text-zinc-400/80 md:text-xl">
           Financial management and visibility in one place. Experience
           <span className="mx-1.5 text-zinc-200">a flexible toolkit</span>that
           makes every task feel like a breeze.
@@ -43,10 +46,11 @@ const Explore = () => {
             imgNode={<IconShowcase />}
             title="Connect all your apps"
             description="Bring your data with our built-in integration for accounting, revenue tools and banking."
-            className="col-span-2"
+            className="md:col-span-2"
+            imgClassName="md:aspect-[2.5/1]"
           />
           <Card
-            imgUrl="https://images.unsplash.com/photo-1654426542353-ba54b8f1752b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
+            imgUrl="https://images.unsplash.com/photo-1654426542353-ba54b8f1752b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=696"
             title="You're in control"
             description="Lightning fast. Shortcuts for everything. Command+K on Mac, Ctrl+K for Windows. Dark mode."
           />
